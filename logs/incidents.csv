@@ -1,0 +1,3 @@
+Incident_ID,Timestamp,Severity,Component,Issue,Observations
+INC-001,2026-11-24 05:04:39,CRITICAL,Market Data Feed,Market data feed is stale (230 ms delay),Strategy latency increased to 108 ms. | Order rejections spiked to 14.
+INC-002,2026-11-24 05:05:09,WARNING,Order Gateway,Elevated order rejections (13 rejected),Market data feed normal (4 ms). | Strategy latency normal (15 ms).

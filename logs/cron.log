@@ -1,0 +1,60 @@
+[Tue Nov 24 05:06:35 UTC 2026] Starting TradeGuard check...
+[HOST] CPU: 0.0% | RAM: 11.0% | Disk: 0.3%
+[TRADING] Feed Delay: 5ms | Strategy Latency: 19ms | Rejections: 1
+STATUS: OK — All infrastructure and trading services operating normally.
+[Tue Nov 24 05:06:36 UTC 2026] Completed TradeGuard check.
+[Tue Nov 24 05:10:01 UTC 2026] Starting TradeGuard check...
+[HOST] CPU: 0.0% | RAM: 11.1% | Disk: 0.3%
+[TRADING] Feed Delay: 14ms | Strategy Latency: 20ms | Rejections: 1
+STATUS: OK — All infrastructure and trading services operating normally.
+[Tue Nov 24 05:10:02 UTC 2026] Completed TradeGuard check.
+[Tue Nov 24 05:15:01 UTC 2026] Starting TradeGuard check...
+[HOST] CPU: 0.0% | RAM: 11.1% | Disk: 0.3%
+[TRADING] Feed Delay: 12ms | Strategy Latency: 12ms | Rejections: 0
+STATUS: OK — All infrastructure and trading services operating normally.
+[Tue Nov 24 05:15:02 UTC 2026] Completed TradeGuard check.
+[Tue Nov 24 05:20:02 UTC 2026] Starting TradeGuard check...
+[Tue Nov 24 05:25:02 UTC 2026] Starting TradeGuard check...
+Exception in thread Thread-1 (telemetry_listener):
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/threading.py", line 1082, in _bootstrap_inner
+    self._context.run(self.run)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/lib/python3.14/threading.py", line 1024, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/justi/tradeguard/main.py", line 21, in telemetry_listener
+    srv.bind(("127.0.0.1", 9003))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+[Tue Nov 24 05:30:02 UTC 2026] Starting TradeGuard check...
+Exception in thread Thread-1 (telemetry_listener):
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/threading.py", line 1082, in _bootstrap_inner
+    self._context.run(self.run)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/lib/python3.14/threading.py", line 1024, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/justi/tradeguard/main.py", line 21, in telemetry_listener
+    srv.bind(("127.0.0.1", 9003))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+[Tue Nov 24 05:33:24 UTC 2026] Completed TradeGuard check.
+[Tue Nov 24 05:33:24 UTC 2026] Completed TradeGuard check.
+[Tue Nov 24 05:33:24 UTC 2026] Completed TradeGuard check.
+[Tue Nov 24 05:35:01 UTC 2026] Starting TradeGuard check...
+Exception in thread Thread-1 (telemetry_listener):
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/threading.py", line 1082, in _bootstrap_inner
+    self._context.run(self.run)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/lib/python3.14/threading.py", line 1024, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/justi/tradeguard/main.py", line 21, in telemetry_listener
+    srv.bind(("127.0.0.1", 9003))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
+[Tue Nov 24 05:37:17 UTC 2026] Completed TradeGuard check.
+[Tue Nov 24 05:40:01 UTC 2026] Starting TradeGuard check...

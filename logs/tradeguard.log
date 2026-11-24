@@ -1,0 +1,12 @@
+[2026-11-24 05:04:19] [INFO] Starting TradeGuard cycle (scenario=normal)
+[2026-11-24 05:04:21] [INFO] Health check passed. All systems nominal.
+[2026-11-24 05:04:38] [INFO] Starting TradeGuard cycle (scenario=feed_lag)
+[2026-11-24 05:04:39] [ERROR] INC-001 [CRITICAL] Market Data Feed: Market data feed is stale (230 ms delay)
+[2026-11-24 05:05:08] [INFO] Starting TradeGuard cycle (scenario=gateway_issue)
+[2026-11-24 05:05:09] [ERROR] INC-002 [WARNING] Order Gateway: Elevated order rejections (13 rejected)
+[2026-11-24 05:06:35] [INFO] Starting TradeGuard cycle (scenario=normal)
+[2026-11-24 05:06:36] [INFO] Health check passed. All systems nominal.
+[2026-11-24 05:10:01] [INFO] Starting TradeGuard cycle (scenario=normal)
+[2026-11-24 05:10:02] [INFO] Health check passed. All systems nominal.
+[2026-11-24 05:15:01] [INFO] Starting TradeGuard cycle (scenario=normal)
+[2026-11-24 05:15:02] [INFO] Health check passed. All systems nominal.
