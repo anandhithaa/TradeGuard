@@ -50,7 +50,7 @@
 
 
 
-**REPOSITORY STRUCTURE**
+##REPOSITORY STRUCTURE
 
 tradeguard/
 ├── main.py               # Central monitoring loop, CLI flags, and graceful signal handling
